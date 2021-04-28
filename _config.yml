@@ -58,6 +58,12 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light"
+    issue_term: "pathname"
+
 author:
   name   : "First Lastname"
   avatar : "/assets/images/bio-photo.jpg"
