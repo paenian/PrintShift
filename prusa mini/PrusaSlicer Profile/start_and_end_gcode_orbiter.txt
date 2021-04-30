@@ -1,0 +1,62 @@
+[START GCODE]
+G90 ; use absolute coordinates
+M83 ; extruder relative mode
+
+M92 E655 ; set E steps per mm for the Orbiter extruder
+M906 E350 ; set the extruder to 350ma for the Orbiter extruder.  350 is the default, can bump up as needed.
+M900 K0.03 ; set the linear advance for the Orbiter
+
+M104 S170 ; set extruder temp for bed leveling
+M140 S[first_layer_bed_temperature] ; set bed temp
+M109 R170 ; wait for bed leveling temp
+M190 S[first_layer_bed_temperature] ; wait for bed temp
+
+G28 ; home all without mesh bed level
+G0 Y-3 ;
+G0 Z181 F2000 ; move up and actuate the bed for a bbq roll
+G4 S45 ; Dwell for 45 seconds
+G0 Z170 ; move down to stop the roll
+
+G29 ; mesh bed leveling
+G1 X0 Y15 F3000 ; move into priming position
+M109 S[first_layer_temperature] ; wait for extruder temp
+G92 E0.0
+
+; prime the nozzle
+G1 Z0.2 F720
+G1 E6.0 F450
+G1 X15.0 E10.0 F900
+G92 E0.0
+
+M221 S95 ; set flow
+
+
+[END GCODE]
+G1 E-1 F2100 ; retract
+{if layer_z < max_print_height}G1 Z{z_offset+min(layer_z+5, max_print_height)}{endif} F720 ; Move print head up
+G1 X178 Y180 F4200 ; park print head
+G4 ; wait
+M104 S0 ; turn off temperature
+M140 S0 ; turn off heatbed
+
+G4 S45 ; Dwell for 45 seconds, cooling
+G1 X178 Y-3 F2000; move the bed to the ejection roller
+G1 X178 Y-3 Z181 ; move up and actuate the bed for a bbq roll
+G4 S30 ; Dwell for 30 seconds, ejecting the part
+G1 X178 Y-3 Z170 ; move down to stop rolling the bed
+
+M107 ; turn off fan
+M221 S100 ; reset flow
+M900 K0 ; reset LA
+M84 ; disable motors
+
+[BEFORE LAYER CHANGE GCODE]
+;BEFORE_LAYER_CHANGE
+G92 E0.0
+;[layer_z]
+
+
+
+[AFTER LAYER CHANGE GCODE]
+;AFTER_LAYER_CHANGE
+;[layer_z]
