@@ -56,12 +56,21 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
 comments:
   provider: "utterances"
   utterances:
     theme: "github-light"
     issue_term: "pathname"
-
+    
 collections:
   portfolio:
     output: true
