@@ -1,5 +1,5 @@
 ---
-title: portfolio
+title: PrintShift Guides
 layout: collection
 permalink: /portfolio/
 collection: portfolio
