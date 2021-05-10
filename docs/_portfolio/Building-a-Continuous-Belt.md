@@ -24,7 +24,6 @@ This page details how to build a continuous loop conveyor belt from a flat sheet
 2. Sharp knife capable of cutting your belt.
 3. Light.  Do not attempt in darkness.
 
-
 ## Procedure
 1. Place belt outside-down on your work surface.
 2. Place block of wood on top.
@@ -36,3 +35,6 @@ This page details how to build a continuous loop conveyor belt from a flat sheet
 7. Remove the ends of the belt carefully - the goal is not to disturb the joint.
 8. Join the belt ends with your Belt Joining Tape.
 9. Woo it's a belt!  Carefully remove the blue tape and install it on your printer.
+
+## Video Walkthrough
+https://youtu.be/_wT68gNBn74
