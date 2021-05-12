@@ -8,10 +8,11 @@ header:
 # PrintShift Bill of Materials
 
 The LIVE Bill of Materials will live here:
-https://docs.google.com/spreadsheets/d/1gTF6RvdNjgoJNNBqXj-OhuOjt69_Wzujfkq8HkN1fU4/edit#gid=0
-Anyone can comment on the google doc - but comments will be resolved and then removed.
 
-[PDF Snapshot as of 5/6/2021](/assets/PrintShift BOM - Sheet1.pdf)
+[BoM on Google Sheets](https://docs.google.com/spreadsheets/d/1gTF6RvdNjgoJNNBqXj-OhuOjt69_Wzujfkq8HkN1fU4/edit?usp=sharing)
+Anyone can comment on the google doc - ideally, comments will be resolved and then removed.
+
+[CSV Snapshot as of 5/11/2021](/assets/PrintShift BOM - Sheet1.csv)
 
 ## BoM Sections
 The BoM is divided into sections based on where the parts are used; this is to try to help organize it, and to more easily edit and update.  
@@ -20,9 +21,9 @@ The BoM is divided into sections based on where the parts are used; this is to t
 ### Conveyor Belt Hardware
 There is a separate page to cover and discuss [belt materials] (/portfolio/Belt Materials/).
 
-The rest of the parts here are hardware for mounting the belt to the Prusa Mini's bed carriage.  The convetore belt hardware can be added at any point, and while it raises the bed 4mm it does not affect normal operation of the mini in any way... at least until you slide a belt onto it :-)
+The rest of the parts here are hardware for mounting the belt to the Prusa Mini's bed carriage.  The conveyor belt hardware can be added at any point, and while it raises the bed 4mm it does not affect normal operation of the mini in any way... at least until you slide a belt onto it :-)
 
-Basically none of these parts can be substituted out without redesigning something.
+Basically none of these parts can be substituted out without redesigning something, but there are bound to be cheaper suppliers, especially in quantity.
 
 
 ### Ejector Hardware
@@ -32,6 +33,10 @@ This includes the control microswitch and wiring.
 Generally, installing these I would include the 5v buck converter to run a raspberry pi - although using wire nuts to attach means it's easy to add later.
 
 A lot of these parts (wire nuts, crimp lugs, getting power for the motor in the first place) could be substituted out as desired; I chose them as the easiest to install reliably.
+
+
+### Belt Material
+The Kapton and various tapes used for the belt.  I treat tapes as '1 roll per printer' so they add a little more to the BoM than I would like... but it's better to be expansive I think.
 
 
 ### Raspberry Pi

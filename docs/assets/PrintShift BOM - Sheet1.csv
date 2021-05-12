@@ -1,0 +1,68 @@
+# of PrintShifts to build,10,,,,,,,,,,,
+Part,Type,Notes,Quantity Needed,Per-Machine Price,,Pack Quantity,Pack Price,Price Per Part,Packs Needed,extra part quantity,Purchase Price,Purchase Link
+Conveyor Belt Hardware,,,,,,,,,,,,
+Shaft collar,8mm,For front of drive roller,1,$0.90,,10,$8.99,$0.90,1,0,$8.99,https://smile.amazon.com/gp/product/B07V41FRZS/ref=ppx_yo_dt_b_asin_title_o00_s01?ie=UTF8&psc=1
+"8mm shaft, 210mm",hardened steel,"drive roller - cut into 183mm for the idler, remainder works great for the drive roller",1,$7.20,,2,$14.39,$7.20,5,0,$71.95,https://smile.amazon.com/Linear-Motion-FEYRINX-Hardened-Printer/dp/B085DQYQYH/ref=sr_1_1_sspa?dchild=1&keywords=8mm+shaft+400mm&qid=1619360221&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExT0ZXNUI4MjUyUE5aJmVuY3J5cHRlZElkPUEwODU2NTQ1MkhMNjlFNTJLSDdDRCZlbmNyeXB0ZWRBZElkPUEwMTMxNjUwMklUWTJCWTVWSUs5MyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=
+"8mm shaft, 183mm",hardened steel,idler - cut down from the 400mm above,0,$0.00,,2,$14.39,$7.20,0,0,$0.00,
+flanged bushings,8mm,drive roller guides,2,$6.88,,1,$3.44,$3.44,20,0,$68.80,https://www.mcmaster.com/5448T2/
+"M3 Hex Standoffs, 10mm long",4.5 or 5mm hex,lift the bed up,6,$6.30,,1,$1.05,$1.05,60,0,$63.00,https://www.mcmaster.com/94868A166/
+"M3 screw, 8mm",flat head,replace the bed screws - easier to deal with,9,$1.64,,50,$9.10,$0.18,2,10,$18.20,https://www.mcmaster.com/91304A101/
+"M5 screws, 25mm",button head,tension the idler,2,$0.31,,50,$7.86,$0.16,1,30,$7.86,https://www.mcmaster.com/91306A669/
+M5 nuts,hex,tension the idler,2,$0.04,,100,$1.76,$0.02,1,80,$1.76,https://www.mcmaster.com/90592A095/
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Ejector Hardware,,,,,,,,,,,,
+F608ZZ flanged ball bearings,8x22x7,,2,$2.74,,10,$13.69,$1.37,2,0,$27.38,https://smile.amazon.com/gp/product/B07N62N7N2/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
+flexible shaft coupling,8mm to 8mm,Link the belt and the motor,1,$6.50,,2,$12.99,$6.50,5,0,$64.95,https://smile.amazon.com/gp/product/B08QVKMDC6/ref=ppx_yo_dt_b_asin_title_o00_s01?ie=UTF8&psc=1
+40T GT2 pulley,8mm bore,Attach to belt,1,$4.00,,2,$7.99,$4.00,5,0,$39.95,https://smile.amazon.com/gp/product/B07K6BRL4K/ref=ppx_yo_dt_b_asin_title_o00_s01?ie=UTF8&psc=1
+20T GT2 pulley,6mm bore,Attach to motor,1,$1.60,,5,$7.99,$1.60,2,0,$15.98,https://smile.amazon.com/gp/product/B08P6KY773/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&psc=1
+GT2 continuous belt,79 teeth,connect the pulleys,1,$1.19,,10,$11.88,$1.19,1,0,$11.88,https://smile.amazon.com/gp/product/B014QKEH26/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1
+24v motor,20RPM,ejector motor,1,$13.99,,1,$13.99,$13.99,10,0,$139.90,https://smile.amazon.com/gp/product/B08FBBXZ67/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
+8mm dowel pin,40mm long,ejector drive shaft,1,$0.96,,10,$9.60,$0.96,1,0,$9.60,https://www.mcmaster.com/91595A573/
+"M3 screws, 12mm",socket head,Mount the motor,2,$0.10,,100,$5.19,$0.05,1,80,$5.19,https://www.mcmaster.com/91292A114/
+"M5 screws, 100mm",socket head,Rear standoff for the motor assembly,2,$1.53,,10,$7.66,$0.77,2,0,$15.32,https://www.mcmaster.com/91502A159/
+"M3 screws, 30mm",socket head,mount the switch,2,$0.42,,50,$10.51,$0.21,1,30,$10.51,https://www.mcmaster.com/91290A130/
+"3030 T-Nuts, M3",post-assembly,mount the switch,2,$0.46,,50,$11.57,$0.23,1,30,$11.57,https://smile.amazon.com/gp/product/B07GVJFZV8/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
+SV-166-1C25 microswitch,long hinge roller,ejector activator,1,$0.55,,20,$10.99,$0.55,1,10,$10.99,https://smile.amazon.com/SV-166-1C25-Industrial-Switches-Terminals-Momentary/dp/B087PLT9MD/ref=sr_1_2_sspa?dchild=1&keywords=SV-166-1C25&qid=1619362820&s=industrial&sr=1-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExOVFUMkxKUVVKQzFKJmVuY3J5cHRlZElkPUEwMzU1Njg0MTdYQzlUVUJQMFUxJmVuY3J5cHRlZEFkSWQ9QTAxNzQ1NDUxNVQxQ1RDMUk1UUMyJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==
+Ring Terminal,"M3, 22-16AWG wire",power the ejector,1,$0.07,,150,$9.99,$0.07,1,140,$9.99,https://smile.amazon.com/smseace-Insulated-Electrical-Connectors-Assortment/dp/B08B5VS8ZR/ref=sr_1_3?dchild=1&keywords=M3+Insulated+Ring+Crimp+Terminals&qid=1619362910&s=industrial&sr=1-3
+Spade connectors,22-16AWG,wire in the switch,2,$0.50,,80,$19.98,$0.25,1,60,$19.98,https://smile.amazon.com/gp/product/B07GP96LSS/ref=ppx_yo_dt_b_search_asin_image?ie=UTF8&psc=1
+Wire Nuts,"gray, 2*22awg terminals",wire up the switch,2,$0.04,,1000,$17.99,$0.02,1,980,$17.99,https://smile.amazon.com/Maxxima-Electrical-Connector-Screw-Terminal/dp/B07ZP8K8GJ/ref=sr_1_18?dchild=1&keywords=wire%2Bnut&qid=1619363075&s=industrial&sr=1-18&th=1
+22awg wire,Need about 2 meters total,wire it all up,0.5,$1.41,,6,$16.95,$2.83,1,1,$16.95,https://smile.amazon.com/gp/product/B07T4SYVYG/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
+,,,,,,,,,,,,
+Belt Material,,,,,,,,,,,,
+.225mm Polyamide Film (Kapton),.225x520x1m,"The belt is 155mm wide by 430mm long - so cut 155mm strips, then trim down.  You can get 6 belts per mm, but quantity here is 2 - you always want a spare belt handy.",2,$8.14,,6,$24.41,$4.07,4,4,$97.64,https://www.aliexpress.com/item/4000473438004.html?spm=a2g0s.9042311.0.0.41374c4dFBWN0U
+Powdercoating Tape,"polyester film + silicone adhesive, .001"" thick, 2"" wide",,1,$11.98,,1,$11.98,$11.98,10,0,$119.80,https://www.mcmaster.com/7630A796/
+Kapton Tape,"2"" wide, Polyimide film + silicone adhesive, .0025"" thick",,1,$15.97,,1,$15.97,$15.97,10,0,$159.70,https://smile.amazon.com/Heat-Resistant-Tape-Sublimation-Temperature/dp/B07KXXT1Y9/ref=sxts_sxwds-bia-wc-rsf-lq2a1_0?crid=196EH3LUSJ3E1&cv_ct_cx=kapton+tape&dchild=1&keywords=kapton+tape&pd_rd_i=B07KXXT1Y9&pd_rd_r=2585c482-d5d5-44ae-a387-f1ed7c89dd15&pd_rd_w=JJNZC&pd_rd_wg=tYQfG&pf_rd_p=26b0e770-de1c-4342-bf97-c57fd874dbaf&pf_rd_r=14B42XVEQZ2SEP30XHAE&psc=1&qid=1620780477&sprefix=kapton+t%2Caps%2C156&sr=1-1-49946e88-733b-44df-869b-c05699555c56
+Painter's Tape,"2"" wide",,1,$4.79,,6,$28.75,$4.79,2,2,$57.50,https://smile.amazon.com/ScotchBlue-2090-48A-CP-Painters-Polypropylene-Backing/dp/B000A3DQGW/ref=sr_1_5?crid=PRRDS7MH15QH&dchild=1&keywords=painter%27s+tape+2+inch&qid=1620781150&sprefix=painter%27s%2Caps%2C159&sr=8-5
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Raspberry Pi Parts,,,,,,,,,,,,
+Buck Converter Module,USB-C,power the Raspberry Pi,1,$14.99,,1,$14.99,$14.99,10,0,$149.90,https://smile.amazon.com/gp/product/B07ZQB6S3L/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1
+USB->MicroUSB cable,1ft,connect pi to the prusa mini,1,$7.99,,1,$7.99,$7.99,10,0,$79.90,https://smile.amazon.com/gp/product/B07PFZDQP6/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1
+Pi Camera Cable,30cm,connect up pi camera,1,$1.33,,6,$7.99,$1.33,2,2,$15.98,https://smile.amazon.com/gp/product/B08WLQBB93/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&th=1
+Arducam,,cheaper Pi Camera,1,$9.99,,1,$9.99,$9.99,10,0,$99.90,https://smile.amazon.com/gp/product/B012V1HEP4/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1
+Raspberry Pi 4,2GB,"No need for more ram, but I think the faster processor is worth it over the older Pis.",1,$34.99,,1,$34.99,$34.99,10,0,$349.90,https://www.microcenter.com/product/621439/raspberry-pi-4-model-b-2gb-ddr4
+"2.5mm screws, 35mm long",socket head,,3,$1.44,,25,$12.03,$0.48,2,20,$24.06,https://www.mcmaster.com/91292A313/
+2.5mm nuts,hex,,3,$0.22,,50,$3.69,$0.07,1,20,$3.69,https://www.mcmaster.com/94150A310/
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Optional Parts,,,,,,,,,,,,
+Collection Tray,,,1,$2.66,,3,$7.99,$2.66,4,2,$31.96,https://smile.amazon.com/gp/product/B086X2YM9Q/ref=ppx_yo_dt_b_asin_title_o05_s01?ie=UTF8&psc=1
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+TOTAL PRICE,,"Per Machine, perfect:",,$173.81,,,,,,,"$1,858.62",
+,,"Per Machine, in quantity:",,$185.86,,,,,,,,
+,,Total for,10,"$1,858.62",,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Price without Pi or Optional Parts,,"Per Machine, perfect:",,$100.19,,,,,,,,
+,,"Per Machine, in quantity:",,$110.33,,,,,,,,
+,,Total for,10,"$1,103.33",,,,,,,,
