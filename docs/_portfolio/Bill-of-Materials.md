@@ -2,8 +2,8 @@
 title: "PrintShift Bill of Materials"
 excerpt: "Shortcut to the Google Docs active BOM, with some discussion on parts."
 header:
-  image: /assets/images/unsplash-gallery-image-1.jpg
-  teaser: assets/images/unsplash-gallery-image-1-th.jpg
+  image: /assets/images/BoM-photo.jpg
+  teaser: assets/images/BoM-photo.jpg
 ---
 # PrintShift Bill of Materials
 
