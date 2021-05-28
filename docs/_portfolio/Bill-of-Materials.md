@@ -19,7 +19,7 @@ The BoM is divided into sections based on where the parts are used; this is to t
 
 
 ### Conveyor Belt Hardware
-There is a separate page to cover and discuss [belt materials] (/portfolio/Belt Materials/).
+There is a separate page to cover and discuss [belt materials] (/portfolio/Belt Materials/)
 
 The rest of the parts here are hardware for mounting the belt to the Prusa Mini's bed carriage.  The conveyor belt hardware can be added at any point, and while it raises the bed 4mm it does not affect normal operation of the mini in any way... at least until you slide a belt onto it :-)
 
