@@ -37,4 +37,4 @@ This page details how to build a continuous loop conveyor belt from a flat sheet
 9. Woo it's a belt!  Carefully remove the blue tape and install it on your printer.
 
 ## Video Walkthrough
-https://youtu.be/_wT68gNBn74
+{% include video id="_wT68gNBn74" provider="youtube" %}
