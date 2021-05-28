@@ -31,10 +31,10 @@ This page details how to print the PrintShift parts.  I like to print the parts 
   * [Rear Motor Plate](https://github.com/paenian/PrintShift/blob/main/prusa%20mini/printshift%203.0%20ejector/rear%20motor%20plate.stl)
   * [Motor Plate Standoff with Pi](https://github.com/paenian/PrintShift/blob/main/prusa%20mini/printshift%203.0%20ejector/motor%20plate%20standoff%20-%20with%20pi.stl)
 
-4. Print Small PrintShift Parts
+4. Print PrintShift - all small parts
   * This is all of the other parts; they need to handle the higher temperatures of the bed, so must be ABS, ASA, PETG or similar. 
   * Mine are printed in blue ABS, .25mm layers, 3 perimeters, 50% cubic infill.  They need to be strong, rigid, and stable up to 100C.
-  * [Small Parts](https://github.com/paenian/PrintShift/blob/main/prusa%20mini/printshift%203.0%20ejector/small%20parts%20plate.stl)
+  * [Small Parts](https://github.com/paenian/PrintShift/blob/main/prusa%20mini/printshift%203.0%20ejector/PrintShift - all small parts.stl)
 5. Print (optional) Raspberry Pi components
   * [pi 4 case top](https://github.com/paenian/PrintShift/blob/main/prusa%20mini/mini%20mounts%20and%20enhancements/raspi/Pi_4_Case_40mm_fan_top%20v3.stl)
   * [pi 4 case bottom](https://github.com/paenian/PrintShift/blob/main/prusa%20mini/mini%20mounts%20and%20enhancements/raspi/Pi_4_Case_bottom%20v3.stl)
