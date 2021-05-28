@@ -45,4 +45,4 @@ This page details how to print the PrintShift parts.  I like to print the parts 
 
 
 ## Video Walkthrough
-https://www.youtube.com/watch?v=aPgevA5sr5U
+{% include video id="aPgevA5sr5U" provider="youtube" %}
