@@ -41,7 +41,7 @@ This page details how to print the PrintShift parts.  I like to print the parts 
   * [pi 3 case top](https://github.com/paenian/PrintShift/blob/main/prusa%20mini/mini%20mounts%20and%20enhancements/raspi/pi_3_case_top.stl)
   * [pi 3 case bottom](https://github.com/paenian/PrintShift/blob/main/prusa%20mini/mini%20mounts%20and%20enhancements/raspi/pi_3_case_bottom.stl)
   * [Rear camera mount](https://github.com/paenian/PrintShift/blob/main/prusa%20mini/mini%20mounts%20and%20enhancements/raspi/rear%20camera%20mount.stl)
-6. Gather the rest of the parts from the [Bill of Materials](/portfolio/Bill-of-Materials/) and start [Building the Belt](/portfolio/PrintShift-3.0-Step-2:Building-The-Conveyor-Bed)!
+6. Gather the rest of the parts from the [Bill of Materials](/portfolio/Bill-of-Materials/) and start [Building the Belt](/portfolio/PrintShift-3-0-Step-2-Belted-Bed-Build)!
 
 
 ## Video Walkthrough
