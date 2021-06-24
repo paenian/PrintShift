@@ -10,7 +10,7 @@ This page details how to install the motor which drives PrintShift conveyor belt
 ### Previous Step:
 [PrintShift Belted Bed Build](/portfolio/PrintShift-3-0-Step-2-Belted-Bed-Build)
 ### Next Step:
-[Power the PrintShift Belt](/portfolio/PrintShift-3-0-Step-4-Powering-the-PrintShift-Conveyor-Belt)
+[Power the PrintShift Belt](/portfolio/PrintShift-3-0-Step-4-Power-the-PrintShift-Conveyor-Belt)
 
 ## Materials Needed
 1. Prusa Mini, assembled, printing, with the conveyor belt bed attached.
