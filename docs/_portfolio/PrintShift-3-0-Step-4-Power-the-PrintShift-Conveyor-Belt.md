@@ -13,7 +13,7 @@ I'll post an alternative control later - using a relay activated by the raspberr
 ### Previous Step:
 [Motorize the PrintShift Conveyor Belt](/portfolio/PrintShift-3-0-Step-3-Motorize-the-PrintShift-Conveyor-Belt)
 ### Next Step:
-[Power the PrintShift Belt](/portfolio/PrintShift-3-0-Step-4-Power-the-PrintShift-Conveyor-Belt)
+[PrintShift Gcode: Ejecting Parts](/portfolio/PrintShift-3-0-Step-5-PrintShift-Gcode)
 
 ## Materials Needed
 1. Prusa Mini, assembled, printing, with the conveyor belt bed and ejector motor already attached.
