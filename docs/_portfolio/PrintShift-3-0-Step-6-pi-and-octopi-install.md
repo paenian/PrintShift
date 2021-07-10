@@ -30,7 +30,19 @@ Once you've got your Prusa Mini able to eject parts, we highly recommend adding 
 
 
 ## Tools Needed
+ * 2mm hex key
+ * needlenose pliers
 
-## Start & End Gcode
-
-## Full PrusaSlicer Profile
+## Steps
+1. Download and install Octopi onto a handy microSD card.
+   * The [Octopi Instructions](https://octoprint.org/download/) are amazing and I'm not gonna repeat 'em here.
+2. Install the Raspberry Pi
+   * You'll need all of the 2.5mm screws and nuts, and the pi camera cable if you're going that route.  (Webcams can be plugged in later)
+   * If you have a heatsink or fan for your Pi, now's the time to install it.
+     * I've never had heat issues, but usually use a passive heatsink if I can find one lying around
+   * Install the pi camera ribbon cable onto the Pi, and feed it out of the pi case top.
+   * The pi should follow, into the top of the case - then the bottom, of course.
+   * Install the pi in its case so that the power plug is facing out, and the ports are facing towards the Prusa Mini's power.
+     * it's cool to put a pi in upside down.  All the kids are doing it.
+   * You should be able to plug in the power from your buck converter installed when wiring up the motor - now's a good time to make sure it'll reach :-)
+3. 
