@@ -20,13 +20,14 @@ Once you've got your Prusa Mini able to eject parts, we highly recommend adding 
    * [pi 3 top](https://github.com/paenian/PrintShift/blob/main/prusa%20mini/mini%20mounts%20and%20enhancements/raspi/pi_3_case_top.stl)
    * [pi 3 bottom](https://github.com/paenian/PrintShift/blob/main/prusa%20mini/mini%20mounts%20and%20enhancements/raspi/pi_3_case_bottom.stl)
 3. Camera Mount
-   * [pi rear camera mount](https://github.com/paenian/PrintShift/blob/main/prusa%20mini/mini%20mounts%20and%20enhancements/raspi/pi%20camera%20mount%20-%20rear.stl)
-   * [todo - webcam mount]()
+   * [pi rear center camera mount](https://github.com/paenian/PrintShift/blob/main/prusa%20mini/mini%20mounts%20and%20enhancements/raspi/pi%20camera%20mount%20-%20rear.stl)
+   * [front corner webcam mount](https://github.com/paenian/PrintShift/blob/main/prusa%20mini/mini%20mounts%20and%20enhancements/raspi/corner%20webcam%20mount.stl)
      * The webcam mount I made has a 1/4" hole - common mounting for webcams in the US is 1/4x20 bolt
 4. 4 * M2.5 screws, 35mm long.  These go through the mounting points, through the case top and bottom, AND through the Pi.  You could get away with long M3 screws, but you'd have to drill out all those components.
 5. 4 * M2.5 hex nuts
 6. Raspberry Pi 3 or 4 - either's fine, don't need extra ram or anything.  I don't run active cooling on my octoprint pi's, but certainly feel free to throw a fan on.
-7. Pi Camera, OR webcam - see octoprint.org for compatible ones.
+7. Pi Camera, OR webcam - see octoprint.org for compatible, but most will work.
+   * With a Pi Camera, I also get a longer cable - something like 200mm - so that you can attach it to the bed.  A fixed camera is pretty rough when printing, attaching the camera to the bed works a lot better.
 
 
 ## Tools Needed
@@ -36,6 +37,7 @@ Once you've got your Prusa Mini able to eject parts, we highly recommend adding 
 ## Steps
 1. Download and install Octopi onto a handy microSD card.
    * The [Octopi Instructions](https://octoprint.org/download/) are amazing and I'm not gonna repeat 'em here.
+   * Put the card into your Raspberry Pi - it's possible to do (and remove) after installation, but it's more finicky.
 2. Install the Raspberry Pi
    * You'll need all of the 2.5mm screws and nuts, and the pi camera cable if you're going that route.  (Webcams can be plugged in later)
    * If you have a heatsink or fan for your Pi, now's the time to install it.
@@ -45,4 +47,15 @@ Once you've got your Prusa Mini able to eject parts, we highly recommend adding 
    * Install the pi in its case so that the power plug is facing out, and the ports are facing towards the Prusa Mini's power.
      * it's cool to put a pi in upside down.  All the kids are doing it.
    * You should be able to plug in the power from your buck converter installed when wiring up the motor - now's a good time to make sure it'll reach :-)
-3. 
+3. Install your pi camera using the cable that should be sticking out, OR your webcam.
+4. Fire it up!
+5. Install Plugins
+   * [Continuous Print](https://plugins.octoprint.org/plugins/continuousprint/) - Nice local plugin for repeat-printing.  By default it has a bed clearing script - you can either put the start/end gcode in there, or make it blank and keep the gcode files with ejection code.  For portability, I prefer to keep each file having its own bed clearing - that way I can use other print services.
+6. Explore Cloud Printing!
+   * [Autodrop3d](https://www.autodrop3d.com/)
+   * [Polar Cloud](https://about.polar3d.com/octoprint)
+   * [Raise3d Cloud](https://cloud.raise3d.com/raise3d.html)
+   * [Spaghetti Detective](https://www.thespaghettidetective.com/)
+
+## Congratulations!
+With this step, you've got a fully functional part-ejecting 3D Printer that can be controlled from anywhere in the world - 
