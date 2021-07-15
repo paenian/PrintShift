@@ -1,5 +1,5 @@
 ---
-title: "PrintShift 3.0 Step 5: PrintShift Gcode: Ejecting Parts"
+title: "PrintShift 3.0 Step 4.5: PrintShift Gcode: Ejecting Parts"
 ---
 
 
@@ -10,7 +10,7 @@ This is a short, non-building section to discuss PrintShift Gcode.  It's not tru
 ### Previous Step:
 [Power the PrintShift Belt](/portfolio/PrintShift-3-0-Step-4-Power-the-PrintShift-Conveyor-Belt)
 ### Next Step:
-[PrintShift Gcode: Ejecting Parts](/portfolio/PrintShift-3-0-Step-5-PrintShift-Gcode)
+[Installing Octoprint](/portfolio/PrintShift-3-0-Step-5-PrintShift-Gcode)
 
 ## Materials Needed
 1. Prusa Mini, assembled, printing, with the conveyor belt bed, ejector motor, and control microswitch attached and wired together.
