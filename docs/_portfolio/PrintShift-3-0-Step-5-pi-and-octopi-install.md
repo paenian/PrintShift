@@ -1,14 +1,14 @@
 ---
-title: "PrintShift 3.0 Step 6: Raspberry Pi and Octopi Install"
+title: "PrintShift 3.0 Step 5: Raspberry Pi and Octopi Install"
 ---
 
 
-# PrintShift 3.0 Build Series: Step 6
+# PrintShift 3.0 Build Series: Step 5
 
 Once you've got your Prusa Mini able to eject parts, we highly recommend adding a Raspberry Pi to it and running Octoprint.  This allows you to access your printer remotely, and with plugins you can also print continuously, or even hook the machine up for random users to use.  More on that next time - for now just focus on the mechanics.
 
 ### Previous Step:
-[PrintShift Gcode: Ejecting Parts](/portfolio/PrintShift-3-0-Step-5-PrintShift-Gcode)
+[PrintShift Gcode: Ejecting Parts](/portfolio/PrintShift-3-0-Step-4.5-PrintShift-Gcode)
 ### Next Step:
 [PrintShift Step 7: Too Much Automation](/portfolio/PrintShift-3-0-Step-7-cloud-automation)
 
