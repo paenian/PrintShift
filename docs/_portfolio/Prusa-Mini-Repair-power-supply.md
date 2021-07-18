@@ -34,3 +34,14 @@ You could also easily bypass the connector, and run 24v right into the buddy boa
 
 ## What's inside?
 If your power supply has failed, are there any user servicable parts inside?  Hope so.  I'll be opening it to see what's in there.  I'm not an electrical engineer, my background is computer science but I've been around power supplies for some time.  Mostly, you look for the part that's burnt and replace it.
+
+Upon opening, the supply is wrapped in an aluminum shield and heat spreader, that appears to be spot-welded on.  There is a soldered-in fuse on the AC side, however - a 5 amp 250v slow-blow fuse.  [T5A 5A 250V Fuse](https://www.walmart.com/ip/10Pcs-DIP-Mounted-Square-Slow-Blow-Micro-Fuse-T5A-5A-250V-Black/678411349?wmlspartner=wlpa&selectedSellerId=571)
+
+{% capture fig_img %}
+![Fuse]({{ '/assets/images/power-supply-fuse.jpg' | relative_url }})
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>Picture of the fuse as it's installed.</figcaption>
+</figure>
