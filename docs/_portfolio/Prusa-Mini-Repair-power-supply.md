@@ -18,7 +18,11 @@ First off, all grounded points on the buddy board are tied together - so to test
 After that, power goes to the power switch, and if that's turned on right back to the next faston connector.
 
 ### Fuses
-With the switch on, we can test the fuses.  There are two - one for the heated bed that's a 7.5 amp fuse and one for everything else, a 3 amp fuse.  These are standard car fuses, available pretty much any auto place, and you can visibly see the fusible link - that wire in the middle - if the fuse is blown it's because that wire vaporized.
+With the switch on, we can test the fuses.  There are two - one for the heated bed that's a (7.5 amp fuse)[https://www.digikey.com/en/products/detail/littelfuse-inc/0297010-WXNV/146591] and one for everything else, a (3 amp fuse)[https://www.digikey.com/en/products/detail/littelfuse-inc/0297003-U/3427703].  These are standard car fuses, available pretty much any auto place, and you can visibly see the fusible link - that wire in the middle - if the fuse is blown it's because that wire vaporized.
+
+If you're not great with numbers, or, um, reading, you can see that the (7.5 amp fuse)[https://www.digikey.com/en/products/detail/littelfuse-inc/0297010-WXNV/146591] has a much thicker wire than the (3 amp fuse)[https://www.digikey.com/en/products/detail/littelfuse-inc/0297003-U/3427703].  The whole idea being that, if the current going in is too high, the fuse will die before any of your expensive, difficult to replace electronic componenets.
+
+A quick side note.  If you do blow a fuse... what happened?  Why did the fuse blow?  If you don't know what caused the excessive power draw, replacing the fuse might not fix the problem.  Certainly could be a power surge, or a voltage issue - but anytime you see a blown fuse, take a look around before you jam a penny in its place.
 
 ### Replacement
 Switches and fuses are easy enough to replace; links to parts down in the description.  In a pinch you can bypass the switch and just jumper from one faston to the other, no problem.  Bypassing the fuse, or running the wrong rating will work, too, but you risk catastrophic damage to your buddy board.  Fuses are cheap - get the right one.
@@ -29,7 +33,7 @@ The connector is a 4-pin Mini-Din Kycon Snap and Lock DC Power Connector.  You c
 
 If you need to replace the connector, [digikey](https://www.digikey.at/product-detail/en/kycon-inc/KPPX-4P/2092-KPPX-4P-ND/9990085?cur=EUR&lang=en) sells them, and has links to the datasheet so you can find the connector on your preferred electronics site.
 
-You could also easily bypass the connector, and run 24v right into the buddy board; for this, I would use a ring terminal for the ground and connect the power wire directly to the power switch.
+You could also easily bypass the connector, and run 24v right into the buddy board; for this, I would use a ring terminal for the ground and connect the power wire directly to the power switch... like I do to power my PrintShift part ejection system.  This isn't a shameless plug, mind.  I am mildly ashamed.
 
 
 ## What's inside?
