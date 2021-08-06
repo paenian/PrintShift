@@ -30,7 +30,11 @@ Thomas Sanladerer captured my reasoning for moving away from angled-bed 3D Print
 ## Bad Horse
 So, bad horse.  Bad Horse was designed as a development printer to test out new conveyor belt ideas, and that's what I plan to use it for again going forwards.
 It was built from parts I had on hand, and I solved problems as they came up.  The unique feature of this printer is that its normal Y axis is on a gantry - so while it's shaped like a Prusa style bedslinger, the bed is in fact fixed in place.
-Or, I could fix the gantry in place - and use the bed to supply all Y movement
+
+Or, I could fix the gantry in place - and use the bed to supply all Y movement - because this belt is driven by stepper motors.
+OR - and this is why you want a cartesian part ejector - I can use all four motion axes and print on an angled plane of my choosing.  So Bad Horse could be a pure part-ejecting printer, a lowered CR-30, or even print on a 30 degree plane to make parts longer than the printer.  The best part about this method is that it can live entirely in the slicer - no modifications to the printer at all.
+
+First, though, I'd like to use it to test out some new conveyor belts, and I'd also like to get RepRapFirmware running on this machine - I've spent a bit too much time lying to Marlin about the bed being another extruder, and trying to add the bed as a dependent axis... it's better to keep the firmware stock and do the coordinate manipulation in the slicer or a post-processor.  If anyone wants to help write that, let me know - and as always happy printing.
 
 
 ## Video Walkthrough
