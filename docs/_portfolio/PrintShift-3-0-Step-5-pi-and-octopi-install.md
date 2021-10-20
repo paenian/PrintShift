@@ -10,7 +10,7 @@ Once you've got your Prusa Mini able to eject parts, we highly recommend adding 
 ### Previous Step:
 [PrintShift Gcode: Ejecting Parts](/portfolio/PrintShift-3-0-Step-4.5-PrintShift-Gcode)
 ### Next Step:
-[PrintShift Step 7: Too Much Automation](/portfolio/PrintShift-3-0-Step-7-cloud-automation)
+[PrintShift Step 6: Too Much Automation](/portfolio/PrintShift-3-0-Step-6-cloud-automation)
 
 ## Materials Needed
 1. Prusa Mini, assembled, printing, with the conveyor belt bed, ejector motor, and control microswitch attached and wired together.
