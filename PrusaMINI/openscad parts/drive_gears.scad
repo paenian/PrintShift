@@ -65,9 +65,9 @@ module assembled(){
 module logo(){
     sc = .4; 
     
-    scale([sc,sc,1]) translate([-89.75,-171,0]) linear_extrude(height=5) import("../logos/printshift.dxf", layer="p");
+    //scale([sc,sc,1]) translate([-89.75,-171,0]) linear_extrude(height=5) import("../Logos/Badge Logo.dxf", layer="p");
     
-    scale([sc,sc,1]) translate([-89.75,-171,0]) linear_extrude(height=5) import("../logos/printshift.dxf", layer="sides");
+    //scale([sc,sc,1]) translate([-89.75,-171,0]) linear_extrude(height=5) import("../Logos/Badge Logo.dxf", layer="sides");
 }
 
 module motor_drive_gear(){
@@ -140,13 +140,13 @@ module motor_drive_gear(){
             }
             
             //logo speed holes
-            translate([0,0,,gear_thick-3]){
-                mirror([1,0,0]) scale([sc,sc,1]) translate([-89.75+3,-171-1,0]) linear_extrude(height=gear_thick+motor_offset+1) import("../logos/printshift.dxf", layer="sides");
-            }
+            //translate([0,0,,gear_thick-3]){
+                //mirror([1,0,0]) scale([sc,sc,1]) translate([-89.75+3,-171-1,0]) linear_extrude(height=gear_thick+motor_offset+1) import("../Logos/Badge Logo.dxf", layer="sides");
+            //}
             //logo p
-            translate([0,0,gear_thick-1]){
-                mirror([1,0,0]) scale([sc,sc,1]) translate([-89.75+3,-171-1,0]) linear_extrude(height=2) import("../logos/printshift.dxf", layer="p");
-            }
+            //translate([0,0,gear_thick-1]){
+                //mirror([1,0,0]) scale([sc,sc,1]) translate([-89.75+3,-171-1,0]) linear_extrude(height=2) import("../Logos/Badge Logo.dxf", layer="p");
+            //}
         }
 }
 
@@ -352,12 +352,12 @@ module motor_drive_gear_clamp(){
             
             
             //logo speed holes
-            translate([0,0,,gear_thick-1.5]){
-                mirror([1,0,0]) scale([sc,sc,1]) translate([-89.75+3,-171-1,0]) linear_extrude(height=gear_thick+motor_offset+1) import("../logos/printshift.dxf", layer="sides");
-            }
+            //translate([0,0,,gear_thick-1.5]){
+                //mirror([1,0,0]) scale([sc,sc,1]) translate([-89.75+3,-171-1,0]) linear_extrude(height=gear_thick+motor_offset+1) import("../Logos/Badge Logo.dxf", layer="sides");
+            //}
             //logo p
-            translate([0,0,gear_thick-1]){
-                mirror([1,0,0]) scale([sc,sc,1]) translate([-89.75+3,-171-1,0]) linear_extrude(height=2) import("../logos/printshift.dxf", layer="p");
-            }
+            //translate([0,0,gear_thick-1]){
+                //mirror([1,0,0]) scale([sc,sc,1]) translate([-89.75+3,-171-1,0]) linear_extrude(height=2) import("../Logos/Badge Logo.dxf", layer="p");
+            //}
         }
 }
