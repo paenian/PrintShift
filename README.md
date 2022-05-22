@@ -18,7 +18,7 @@ There is a nice pile of PrintShift videos already up on YouTube! Check 'em out.
 
 ### Paul Chase
 
-![Paul Chase](./docs/assets/images/bio-photo.jpg)
+![Paul Chase](/Manual/assets/images/bio-photo.jpg)
 
 Maker of kinetic sculptures, including 3D printers
 
