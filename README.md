@@ -12,7 +12,7 @@ The project will continue to work on belts, part ejection and related technologi
 
 There is a nice pile of PrintShift videos already up on YouTube! Check 'em out.
 
-![https://youtube.com/paulchase](https://badgen.net/badge/you/tube/red)
+[![YouTube](https://badgen.net/badge/you/tube/red)](https://youtube.com/paulchase)
 
 ## Creator
 
@@ -23,11 +23,11 @@ There is a nice pile of PrintShift videos already up on YouTube! Check 'em out.
 Maker of kinetic sculptures, including 3D printers
 
 ---
-![https://github.com/paenian](https://badgen.net/badge/icon/github/grey?icon=github&label)
-![https://www.patreon.com/PrintShift](https://badgen.net/badge/icon/patreon/orange?icon=patreon&label)
-![https://twitter.com/paenian](https://badgen.net/badge/icon/twitter?icon=twitter&label)
-![https://instagram.com/paenian](https://badgen.net/badge/insta/gram/purple)
-![mailto:paenian@gmail.com](https://badgen.net/badge/icon/email/black?icon=telegram&label)
+[![GitHub](https://badgen.net/badge/icon/github/grey?icon=github&label)](https://github.com/paenian)
+[![Patreon](https://badgen.net/badge/icon/patreon/orange?icon=patreon&label)](https://www.patreon.com/PrintShift)
+[![Twitter](https://badgen.net/badge/icon/twitter?icon=twitter&label)](https://twitter.com/paenian)
+[![Instagram](https://badgen.net/badge/insta/gram/purple)](https://instagram.com/paenian)
+[![Email](https://badgen.net/badge/icon/email/black?icon=telegram&label)](mailto:paenian@gmail.com)
 
 ---
 
