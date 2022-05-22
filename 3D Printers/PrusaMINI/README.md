@@ -1,6 +1,6 @@
 # Prusa Mini Conveyor Belt!
 
-![Status: Fully Functional!](https://flat.badgen.net/badge/STATUS/Full%20Functional/green)
+![Status: Fully Functional!](https://badgen.net/badge/STATUS/Full%20Functional/green)
 
 Quick overview - this repo contains all the files I used to add a conveyor belt to my Prusa Mini.
 
