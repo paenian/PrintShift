@@ -1,10 +1,3 @@
----
-title: "PrintShift Bill of Materials"
-excerpt: "Shortcut to the Google Docs active BOM, with some discussion on parts."
-header:
-  image: /assets/images/BoM-photo.jpg
-  teaser: assets/images/BoM-photo.jpg
----
 # PrintShift Bill of Materials
 
 The LIVE Bill of Materials will live here:
@@ -12,14 +5,14 @@ The LIVE Bill of Materials will live here:
 [BoM on Google Sheets](https://docs.google.com/spreadsheets/d/1gTF6RvdNjgoJNNBqXj-OhuOjt69_Wzujfkq8HkN1fU4/edit?usp=sharing)
 Anyone can comment on the google doc - ideally, comments will be resolved and then removed.
 
-[CSV Snapshot as of 5/11/2021](/assets/PrintShift BOM - Sheet1.csv)
+[CSV Snapshot as of 11.05.2021](/Manual/assets/PrintShift BOM - 11.05.2021.csv)
 
 ## BoM Sections
 The BoM is divided into sections based on where the parts are used; this is to try to help organize it, and to more easily edit and update.  
 
 
 ### Conveyor Belt Hardware
-There is a separate page to cover and discuss [belt materials](/portfolio/Belt Materials/)
+There is a separate page to cover and discuss [belt materials](/Belt Materials.md)
 
 The rest of the parts here are hardware for mounting the belt to the Prusa Mini's bed carriage.  The conveyor belt hardware can be added at any point, and while it raises the bed 4mm it does not affect normal operation of the mini in any way... at least until you slide a belt onto it :-)
 
