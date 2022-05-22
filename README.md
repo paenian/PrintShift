@@ -14,10 +14,21 @@ There is a nice pile of PrintShift videos already up on YouTube! Check 'em out.
 
 ![https://youtube.com/paulchase](https://badgen.net/badge/you/tube/red)
 
----
+## Creator
 
+### Paul Chase
+
+![Paul Chase](./docs/assets/images/bio-photo.jpg)
+
+Maker of kinetic sculptures, including 3D printers
+
+---
 ![https://github.com/paenian](https://badgen.net/badge/icon/github/grey?icon=github&label)
 ![https://www.patreon.com/PrintShift](https://badgen.net/badge/icon/patreon/orange?icon=patreon&label)
 ![https://twitter.com/paenian](https://badgen.net/badge/icon/twitter?icon=twitter&label)
 ![https://instagram.com/paenian](https://badgen.net/badge/insta/gram/purple)
 ![mailto:paenian@gmail.com](https://badgen.net/badge/icon/email/black?icon=telegram&label)
+
+---
+
+![Netty is the official mascot](/Manual/assets/images/netty_printer.jpg)

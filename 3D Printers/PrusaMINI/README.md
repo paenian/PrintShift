@@ -1,6 +1,6 @@
 # Prusa Mini Conveyor Belt!
 
-Status: Fully Functional!
+![Status: Fully Functional!](https://flat.badgen.net/badge/STATUS/Full%20Functional/green)
 
 Quick overview - this repo contains all the files I used to add a conveyor belt to my Prusa Mini.
 
@@ -36,9 +36,3 @@ This repository now contains a website: https://paenian.github.io/PrintShift
 Instructions, videos, tips and tricks will all be posted there.
 
 This project is supported by patrons on Patreon - go to https://www.patreon.com/PrintShift if you'd like to help develop part ejecting printers!
-
-
-
-
-
-![Netty is the official mascot](https://github.com/paenian/PrintShift/blob/master/netty_printer.jpg)
