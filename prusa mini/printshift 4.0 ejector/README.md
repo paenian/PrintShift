@@ -20,6 +20,8 @@ These are all the parts needed to build PrintShift 4.0.  Feel free to ping me wi
  - 1 110-2GT closed-loop Gt2 belt - 6mm wide, 55 teeth.  Source: https://smile.amazon.com/BEMONOC-2GT-Timing-Belt-110-2GT-6/dp/B014SSZ3EM
  - 2 8mm by 200mm long hardened steel shafts.  Source: https://smile.amazon.com/dp/B08HYJRRXD/
    - The drive shaft is a tiny bit short doing it like this, but the belt locks it in place so I figure it's fine.
+ - 1 ~160mm EPDM rubber sleeve - 5/16 or 8mm in diameter, wall thickness 1/16" or 1.5mm or less.  Source: https://www.mcmaster.com/9776T15/
+   - This provides grip to drive the belt.  1mm adhesive EPDM foam sheet works, too, but it's a pain to apply it smoothly.
  
  ### Tension the Belt
  - 2 M5 hex nuts - really any will do - https://www.mcmaster.com/90592A095/
