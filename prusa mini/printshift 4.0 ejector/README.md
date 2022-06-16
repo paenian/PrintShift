@@ -2,9 +2,12 @@
 
 4th generation Prusa Mini part ejection system.
 
+## Printing the Parts
+There's an [all parts arranged.stl](https://github.com/paenian/PrintShift/blob/main/prusa%20mini/printshift%204.0%20ejector/all%20parts%20arranged.stl) with each part laid out and oriented for printing.  No supports are necessary.  PLA works OK, higher-temperature plastics make me less nervous about the ones that touch the bed.
+Each part is listed below, so you don't have to guess its name.
+
 ## BoM
 These are all the parts needed to build PrintShift 4.0.  Feel free to ping me with alternate sources, especially for non-US places.
-
 
 ### Lift the bed up
  - 6 Hex Standoffs - female threaded 5mm or 4.5mm hex standoff 10mm long.  Source: https://www.mcmaster.com/94868A166/
