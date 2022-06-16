@@ -4,6 +4,8 @@ Status: Fully Functional!
 
 Quick overview - this repo contains all the files I used to add a conveyor belt to my Prusa Mini.
 
+The latest version fits a Prusa Mini, and lives here: https://github.com/paenian/PrintShift/tree/main/prusa%20mini/printshift%204.0%20ejector
+
 ## BELT MATERIAL
 The current belt is made from .2mm thick Kapton, ordered from AliExpress and lasercut.  You can totally hand-cut it, but tracking of the belt is a bit of a pain.
 
@@ -31,7 +33,7 @@ Right now, the belt is 145mm in width - so your Y axis shrinks a bit when printi
 
 
 ## INSTALLATION
-This repository now contains a website: https://paenian.github.io/PrintShift
+The projects in this repository are best described on YouTube: https://www.youtube.com/paulchase
 
 Instructions, videos, tips and tricks will all be posted there.
 
