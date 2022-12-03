@@ -8,6 +8,8 @@ Each part is listed below, so you don't have to guess its name.
 
 ## BoM
 These are all the parts needed to build PrintShift 4.0.  Feel free to ping me with alternate sources, especially for non-US places.
+I've got the 4.0 BOM in Google Sheets here, as well:
+https://docs.google.com/spreadsheets/d/1Y6tmWdhaA39aywXKX1IuBWYhULWI4l2Ml0a-xL-PMI8/edit#gid=0
 
 ### Lift the bed up
  - 6 Hex Standoffs - female threaded 5mm or 4.5mm hex standoff 10mm long.  Source: https://www.mcmaster.com/94868A166/
